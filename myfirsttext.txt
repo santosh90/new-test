@@ -1,1 +1,9 @@
-Hi
+Your current status is that you performed a change in a file that git is tracking, but haven't done anything with this change. So first, you should "tell" git about this change, or stage it to be committed (note that you can stage several files/changes at once):
+
+% git add login.php
+Once that is done, you need to commit this change, and add a message explaining what this change contains:
+
+% git commit -m "Fixed bug in login.php"
+You can now proceed to push this change to github:
+
+% git push origin my_branch
